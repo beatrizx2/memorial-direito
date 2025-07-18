@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Memorial'
+theme = 'mainroad' 
+mainsections=['post']
+
+[params.logo]
+subtitle = 'Universidade Federal da Bahia'
+image = "images/ufba.png"
+
+[params]
+customCSS = ["css/custom.css"]
+
+[params.memorial]
+image = "images/memorial.jpg"
+
+
