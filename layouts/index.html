@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<div class="container">
+
+  <!-- Memorial título e texto resumo -->
+  {{ with .Site.GetPage "post/basic-elements.md" }}
+  <article class="post__header">
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <p>{{ .Summary }}</p>
+  </article>
+  {{ end }}
+
+  <!-- Container flex para foto + história -->
+  <div class="flex">
+
+    <!-- Foto memorial -->
+    <div class="logo__item">
+      <img class="logo__img" src="/images/memorial.jpg" alt="Foto Memorial">
+    </div>
+
+    <!-- História texto -->
+    <aside class="sidebar">
+      {{ with .Site.GetPage "post/history.md" }}
+      <article>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Summary }}</p>
+      </article>
+      {{ end }}
+    </aside>
+
+  </div>
+
+</div>
+
+{{ end }}

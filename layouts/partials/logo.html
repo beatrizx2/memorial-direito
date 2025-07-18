@@ -1,0 +1,18 @@
+{{- $logoSubtitle := .Site.Params.logo.subtitle | default .Site.Params.subtitle -}}
+{{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}}
+{{- $logoImage := .Site.Params.logo.image -}}
+
+{{- if or $logoTitle $logoImage }}
+  <div class="logo logo--mixed logo--custom">
+    {{ with $logoImage }}
+      <div class="logo__item logo__imagebox">
+        <img class="logo__img" src="{{ . | relURL }}" alt="Logo">
+      </div>
+    {{ end }}
+
+    <div class="logo__item logo__text">
+      {{ with $logoSubtitle }}<div class="logo__tagline">{{ . }}</div>{{ end }}
+      {{ with $logoTitle }}<div class="logo__title">{{ . }}</div>{{ end }}
+    </div>
+  </div>
+{{- end }}
