@@ -417,7 +417,9 @@ select {
 }
 
 .logo__img2 {
-	max-height: 90px;
+    width: 100%;      /* ocupa toda a largura do container pai */
+    height: 400px;     /* ocupa toda a altura do container pai */
+    object-fit: cover; /* mantém a proporção e corta o excesso para preencher */
 }
 
 .logo__text {
@@ -448,16 +450,15 @@ select {
 
 .logo__tagline {
 	display: inline-block;
-	padding-top: 10px;
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 1;
-	color: #2c3e50;
+	color: #022c55;
 
 }
 
 .logo__imagebox {
-  margin: 0 95px; /* espaçamento horizontal entre as imagens */
+  margin: 0 225px; /* espaçamento horizontal entre as imagens */
 }
 
 .divider {
@@ -519,7 +520,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	padding: 10px 15px;
 	padding: .625rem .9375rem;
 	font-weight: 700;
-	color: #fff;
+	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -552,7 +553,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 @media screen and (min-width: 767px) {
 	.menu {
-		border-bottom: 5px solid #2d3350;
+		border-bottom: 5px solid #ccbe00;
 	}
 	.blue-bar {
     padding: 1rem;
@@ -560,7 +561,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .menu__list {
 	max-width: 1080px;
 	list-style: none;
-	background: #2c3e50;
+	background: #e7d803;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
