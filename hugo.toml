@@ -5,8 +5,10 @@ theme = 'mainroad'
 mainsections=['post']
 
 [params.logo]
-subtitle = 'Universidade Federal da Bahia'
-image = "images/ufba.png"
+subtitle = "Universidade Federal da Bahia<br>Faculdade de Direito"
+image = "images/brasao_da_UFBA.png"
+direito = "images/Direito_passado.jpg"
+logo_direito = "images/logo_direito.png"
 
 [params]
 customCSS = ["css/custom.css"]
