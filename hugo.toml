@@ -5,7 +5,8 @@ theme = 'mainroad'
 mainsections=['post']
 
 [params.logo]
-subtitle = "Universidade Federal da Bahia<br>Memorial da Faculdade de Direito"
+subtitle = "Universidade Federal da Bahia"
+subsubtitle = "Memorial da Faculdade de Direito"
 image = "images/brasao_da_UFBA.png"
 direito = "images/Direito_passado.jpg"
 logo_direito = "images/logo_direito.png"

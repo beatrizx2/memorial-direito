@@ -1360,5 +1360,12 @@ textarea {
 	text-align: end;
 	padding: 20px;
 	background-color: #314151; /* ou "blue" se preferir */
+}
 
+.names,
+.logo__item.logo__text {
+  display: flex;
+  flex-direction: column;
+  align-items: end; /* centraliza horizontalmente */
+  text-align: end;  /* centraliza o texto */
 }

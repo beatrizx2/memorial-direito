@@ -59,11 +59,12 @@
 				{{ with .Site.Params.logo.subtitle }}
 				<div class="logo__tagline">{{ . | safeHTML }}</div>
 				{{ end }}
-				{{ with .Site.Params.logo.title }}
-				<div class="logo__title">{{ . }}</div>
+				{{ with .Site.Params.logo.Subsubtitle }}
+				<div class="logo__tagline">{{ . | safeHTML }}</div>
 				{{ end }}
 				</div>
 			</div>
+		</div>
 
 		{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
         
