@@ -453,7 +453,7 @@ select {
 	font-size: 20px;
 	font-weight: 700;
 	line-height: 1;
-	color: #022c55;
+	color: #ffffff;
 
 }
 
@@ -1358,4 +1358,7 @@ textarea {
 .names{
 	align-items: end;
 	text-align: end;
+	padding: 20px;
+	background-color: #314151; /* ou "blue" se preferir */
+
 }

@@ -54,6 +54,16 @@
           <img class="logo__img2" src="{{ . | relURL }}" alt="Direito Passado">
         </div>
       {{ end }}
+	    <div class="names">
+			<div class="logo__item logo__text">
+				{{ with .Site.Params.logo.subtitle }}
+				<div class="logo__tagline">{{ . | safeHTML }}</div>
+				{{ end }}
+				{{ with .Site.Params.logo.title }}
+				<div class="logo__title">{{ . }}</div>
+				{{ end }}
+				</div>
+			</div>
 
 		{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
         

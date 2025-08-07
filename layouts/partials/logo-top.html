@@ -1,9 +1,7 @@
-{{- $logoSubtitle := .Site.Params.logo.subtitle | default .Site.Params.subtitle -}} 
-{{- $logoTitle := .Site.Params.logo.title | default .Site.Title -}} 
 {{- $logoImage := .Site.Params.logo.image -}} 
 {{- $logoDireitoExtra := .Site.Params.logo.logo_direito -}}
 
-{{- if or $logoTitle $logoImage }}
+{{- if or $logoImage }}
   <div class="logo">
     
     <!-- Bloco com as duas imagens lado a lado -->
