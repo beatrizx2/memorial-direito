@@ -395,11 +395,11 @@ select {
 
 
 .logo {
-  padding: 25px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: start;
+  text-align: start;
   background-color: #ffffff;
 }
 
@@ -413,7 +413,7 @@ select {
 }
 
 .logo__img {
-	max-height: 90px;
+	max-height: 70px;
 }
 
 .logo__img2 {
@@ -457,8 +457,11 @@ select {
 
 }
 
-.logo__imagebox {
-  margin: 0 225px; /* espaçamento horizontal entre as imagens */
+.logo__images {
+	display: flex;
+  	gap: 86px; /* Espaço entre os logos */
+  	align-items: center; /* Alinha verticalmente*/
+  	justify-content: flex-start; /* Garante o alinhamento à esquerda */
 }
 
 .divider {
