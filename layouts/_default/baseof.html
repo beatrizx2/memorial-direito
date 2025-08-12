@@ -50,24 +50,23 @@
         {{ partial "logo-top.html" . }}
         {{- $direitoImage := .Site.Params.logo.direito -}}
       {{ with $direitoImage }}
-        <div class="">
+        <div class="logo__imag">
           <img class="logo__img2" src="{{ . | relURL }}" alt="Direito Passado">
         </div>
       {{ end }}
-	    <div class="names">
+        <div class="names">
 			<div class="logo__item logo__text">
 				{{ with .Site.Params.logo.subtitle }}
 				<div class="logo__tagline">{{ . | safeHTML }}</div>
 				{{ end }}
 				{{ with .Site.Params.logo.Subsubtitle }}
-				<div class="logo__tagline">{{ . | safeHTML }}</div>
+				<div class="logo__tagline2">{{ . | safeHTML }}</div>
 				{{ end }}
 				</div>
 			</div>
+			{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
 		</div>
-
-		{{ block "header" . }}{{ partial "header.html" . }}{{ end }}
-        
+		
 		<div class="wrapper flex">
 			<div class="primary">
 			{{ block "main" . }}

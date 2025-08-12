@@ -415,7 +415,9 @@ select {
 .logo__img {
 	max-height: 70px;
 }
-
+.logo__img3 {
+	max-height: 85px;
+}
 .logo__img2 {
     width: 100%;      /* ocupa toda a largura do container pai */
     height: 400px;     /* ocupa toda a altura do container pai */
@@ -457,11 +459,27 @@ select {
 
 }
 
+.logo__tagline2 {
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1;
+	color: #E7D803;
+
+}
+
 .logo__images {
-	display: flex;
-  	gap: 86px; /* Espaço entre os logos */
-  	align-items: center; /* Alinha verticalmente*/
-  	justify-content: flex-start; /* Garante o alinhamento à esquerda */
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+
+.logo__images > :last-child {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .divider {
@@ -562,15 +580,19 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     padding: 1rem;
   }
 .menu__list {
-	max-width: 1080px;
-	list-style: none;
-	background: #e7d803;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  max-width: 1080px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
+  /* Gradiente translúcido de amarelo que escurece da esquerda pra direita */
+  background: linear-gradient(
+    to left,
+    rgba(158, 150, 36, 0.6),
+    rgba(231, 216, 3, 0.9)
+  );
 }
-
 .menu__btn-title {
 	position: relative;
 	display: block;
@@ -1358,7 +1380,7 @@ textarea {
 .names{
 	align-items: end;
 	text-align: end;
-	padding: 20px;
+	padding: 35px;
 	background-color: #314151; /* ou "blue" se preferir */
 }
 
