@@ -420,7 +420,7 @@ select {
 }
 .logo__img2 {
     width: 100%;      /* ocupa toda a largura do container pai */
-    height: 400px;     /* ocupa toda a altura do container pai */
+    height: 280px;     /* ocupa toda a altura do container pai */
     object-fit: cover; /* mantém a proporção e corta o excesso para preencher */
 }
 
