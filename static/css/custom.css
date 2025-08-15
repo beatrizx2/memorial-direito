@@ -470,16 +470,10 @@ select {
 
 .logo__images {
   display: flex;
-  align-items: center;
+  align-items: center;      /* verticalmente centralizado */
+  justify-content: center;  /* horizontalmente centralizado */
+  gap: 200px;                /* espaçamento entre os itens */
   width: 100%;
-  position: relative;
-}
-
-
-.logo__images > :last-child {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .divider {
