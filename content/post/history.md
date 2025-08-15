@@ -2,17 +2,10 @@
 title: "História"
 date: 2014-04-02
 thumbnail: "images/memorial.jpg"
-tags:
-  - "go"
-  - "golang"
-  - "templates"
-  - "themes"
-  - "development"
-categories:
-  - "Development"
-  - "golang"
-
+layout: history
+type: post
 ---
+
 
 O Memorial da Faculdade de Direito da Universidade Federal da Bahia (FDUFBA) deu início às suas atividades em janeiro de 2012 
 objetivando a custodia e o tratamento dos documentos produzidos e recebidos pela Faculdade, em função de suas atividades 
