@@ -413,15 +413,22 @@ select {
 }
 
 .logo__img {
-	max-height: 70px;
+	max-height: 110px;
 }
+
+logo__img2{
+	max-height: 110px;
+}
+
+
 .logo__img3 {
 	max-height: 85px;
 }
-.logo__img2 {
-    width: 100%;      /* ocupa toda a largura do container pai */
-    height: 280px;     /* ocupa toda a altura do container pai */
-    object-fit: cover; /* mantém a proporção e corta o excesso para preencher */
+.memorial {
+  width: 100%;       /* ocupa toda a largura */
+  height: auto;      /* mantém proporção */
+  object-fit: contain; /* garante que a imagem inteira seja visível */
+  display: block;    /* remove espaço extra abaixo da imagem */
 }
 
 .logo__text {
@@ -472,7 +479,7 @@ select {
   display: flex;
   align-items: center;      /* verticalmente centralizado */
   justify-content: center;  /* horizontalmente centralizado */
-  gap: 300px;                /* espaçamento entre os itens */
+  gap: 200px;                /* espaçamento entre os itens */
   width: 100%;
 }
 

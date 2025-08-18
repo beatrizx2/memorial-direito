@@ -10,6 +10,7 @@ subsubtitle = "Memorial da Faculdade de Direito"
 image = "images/brasao_da_UFBA.png"
 direito = "images/Direito_passado.jpg"
 logo_direito = "images/logo_direito.png"
+logo_memorial = "images/logo_memorial.png"
 
 [params]
 customCSS = ["css/custom.css"]
