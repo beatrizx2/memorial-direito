@@ -472,7 +472,7 @@ select {
   display: flex;
   align-items: center;      /* verticalmente centralizado */
   justify-content: center;  /* horizontalmente centralizado */
-  gap: 200px;                /* espaçamento entre os itens */
+  gap: 300px;                /* espaçamento entre os itens */
   width: 100%;
 }
 
@@ -1384,4 +1384,9 @@ textarea {
   flex-direction: column;
   align-items: end; /* centraliza horizontalmente */
   text-align: end;  /* centraliza o texto */
+}
+
+.post-content, .post__header, .sidebar {
+    text-align: justify;
+    text-justify: inter-word; /* opcional, melhora espaçamento entre palavras */
 }

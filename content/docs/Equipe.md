@@ -21,7 +21,7 @@ Ricardo Sodré Andrade
 Sasha
 
 **Estagiários**  
-Aldailza  
+Aldaiza  
 Aliciane da Fé Silva  
 André  
 Beatriz Azevedo Alves  
