@@ -12,18 +12,16 @@ menu:
 ---
 
 **Coordenação**  
-Maria Solenar Rodrigues do Nascimento
+Maria Solenar Rodrigues do Nascimento - Arquivista
 
-**Arquivista**  
-Ricardo Sodré Andrade
 
 **Apoio Técnico**  
-Sasha
+Ricardo Sodré Andrade - Arquivista  
 
 **Estagiários**  
-Aldaiza  
-Aliciane da Fé Silva  
-André  
-Beatriz Azevedo Alves  
-Carlos Cesar Miranda dos Santos  
-Sidney Domenech Morais da Purificação
+Aldaiza Silva dos Santos - graduanda em Arquivologia  
+Aliciane da Fé Silva  - graduanda em Direito  
+Beatriz Azevedo Alves  - graduanda em Ciência da Computação  
+Carlos Cesar Miranda dos Santos  - graduando em Arquivologia  
+Luiz André Santos de Jesus  - graduando em BI em Humanidades  
+Sidney Domenech Morais da Purificação - graduando em BI em Humanidades

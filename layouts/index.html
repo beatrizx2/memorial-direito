@@ -4,7 +4,7 @@
   <!-- Memorial título e texto resumo -->
   {{ with .Site.GetPage "post/basic-elements.md" }}
   <article class="post__header">
-    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <h2>{{ "Memorial" }}</h2>
     <p>{{ .Summary }}</p>
   </article>
   {{ end }}
@@ -21,7 +21,7 @@
     <aside class="sidebar">
       {{ with .Site.GetPage "post/history.md" }}
       <article>
-        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <h2>{{ "História" }}</h2>
         <p>{{ .Summary }}</p>
       </article>
       {{ end }}
