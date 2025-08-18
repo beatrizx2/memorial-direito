@@ -1,5 +1,5 @@
 ---
-title: Histórico
+title: Customization
 description: Describes common Mainroad theme configuration parameters that can be adjusted via config file or via Front
   Matter section.
 lead: Describes common Mainroad theme configuration parameters that can be adjusted via config file or via Front Matter
@@ -9,8 +9,6 @@ authorbox: false
 sidebar: false
 pager: false
 weight: 2
-menu: main
-draft: false
 
 ---
 

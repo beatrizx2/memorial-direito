@@ -18,3 +18,12 @@ customCSS = ["css/custom.css"]
 image = "images/memorial.jpg"
 
 
+ [[menu.main]]
+  name = "Inicial"
+  url  = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "História"
+  url  = "/post/history"
+  weight = 2
