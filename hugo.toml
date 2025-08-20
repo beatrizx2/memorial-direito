@@ -23,3 +23,5 @@ image = "images/memorial.jpg"
   name = "Inicial"
   url  = "/"
   weight = 1
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
